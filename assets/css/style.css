@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+/* SEZIONE NAV */
+.nav-col{
+  background-color:#000000 ;
+  width: 250px;
+  height: calc(100vh - 100px);
+}
+/* /SEZIONE NAV */
+
+/* SEZIONE CONTENUTI */
+.contenents{
+  height: calc(100vh - 100px);
+  width: calc(100vw - 250px);
+  background-color:#141922 ;
+  color: #FFFFFF;
+  overflow: auto;
+}
+
+.fix-bar{
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fake{
+  margin-top: 100px;
+}
+/* /SEZIONE CONTENUTI */
+
+/* SEZIONE BARRA PLAY */
+.start-play .container{
+  background-color:#282828;
+  height: 100px;
+}
+/* /SEZIONE BARRA PLAY */
