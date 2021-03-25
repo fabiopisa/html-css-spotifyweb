@@ -6,6 +6,15 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.f-weight-600{
+font-weight: 600;
+}
+
+.f-weight-700{
+font-weight: 700;
 }
 
 .clearfix{
@@ -18,6 +27,15 @@ body{
   float: left;
 }
 
+.text-white{
+  color: #FFFFFF;
+}
+.text-grey{
+  color: #848484;
+}
+.text-whi{
+  color: #FFFFFF;
+}
 /* SEZIONE NAV */
 .nav-col{
   background-color:#000000 ;
@@ -31,7 +49,6 @@ body{
   height: calc(100vh - 100px);
   width: calc(100vw - 250px);
   background-color:#141922 ;
-  color: #FFFFFF;
   overflow: auto;
 }
 
@@ -50,8 +67,73 @@ body{
 /* /SEZIONE CONTENUTI */
 
 /* SEZIONE BARRA PLAY */
-.start-play .container{
+.start-play {
   background-color:#282828;
   height: 100px;
 }
+
+.container{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.song, .volume{
+  width: 250px;
+  height: 100px;
+}
+
+.backcolo{
+  background-color: rosybrown;
+}
+
+.play{
+  width: calc(100%/3);
+  background-color: salmon;
+  height: 100px;
+}
+/* SONG */
+.song{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.img-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 150px;
+  justify-content: space-evenly;
+}
+
+.song img{
+  width: 50px;
+  height: 50px;
+}
+ 
+.song .text-start{
+  display: flex;
+  flex-direction: column;
+}
+
+.song span{
+  font-size: 80%;
+}
+
+.song .text-start .title-art-start{
+  font-size: 10px;
+} 
+
+.song .icon-start{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 40px;
+}
+
+.song .icon-start i{
+  font-size: 16px;
+}
+/* /SONG */
 /* /SEZIONE BARRA PLAY */
