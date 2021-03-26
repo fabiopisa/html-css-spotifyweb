@@ -165,7 +165,7 @@ footer {
 }
 
 .player .min-bar .line-time{
-  width: 90%;
+  width: 80%;
   background-color: #5A5A5A;
   border-radius: 20px;
   height: 4px;
@@ -221,16 +221,14 @@ footer {
     width: 30px;
   }
   .song .img-text-song{
-    width: 120px;
+    width: 110px;
     padding-right:0 ;
     padding-left: 10px;
   }
-  /* .song .img-text-song .text-song {
-    padding-left: 5px;
-  } */
+  
   .song img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   
 }
