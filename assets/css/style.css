@@ -5,7 +5,7 @@
 }
 body{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 .f-weight-600{
 font-weight: 600;
@@ -46,7 +46,9 @@ ul{
 a{
   text-decoration: none;
 }
-
+.text-center{
+  text-align: center;
+}
 /* SEZIONE NAV */
 .nav-col{
   background-color:#000000 ;
@@ -168,6 +170,7 @@ a{
   background-color:#141922 ;
   overflow: auto;
 }
+/* barra fixata */
 .fix-bar{
   height: 90px;
   background-color: rgba(0, 0, 0, 0.4);
@@ -188,6 +191,8 @@ a{
   text-transform: uppercase;
   margin-right: 5px;
 }
+/*/ barra fixata */
+/* lista contenuti */
 .list-contenents {
  margin-top:110px ;
  text-align: center;
@@ -206,14 +211,42 @@ a{
  color: #7B7D82;
 }
 .list-contenents ul li .green-line{
-  width: 50%;
-  margin: auto;
+  width: 40px;
+  margin: 5px auto;
   border: 1px solid #ADFF2F;
-  margin-top: 5px;
 }
 .green-line-none{
   display: none;
 }
+/* lista contenuti */
+/* lista recently */
+.list-recently{
+ /*  padding: 10px; */
+}
+.list-recently h3{
+  margin-left: 10px;
+  font-size: 34px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.list-recently ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.list-recently ul li{
+  /* width: calc(100%/6); */
+  /* padding: 10px; */
+  display: inline-block;
+}
+.list-recently ul li img{
+  width: 150px;
+  height: 150px;
+}
+.list-recently ul li h4{
+  margin: 10px 0;
+  font-size: 22px;
+}
+/* /lista recently */
 /* /SEZIONE CONTENUTI */
 
 /* SEZIONE BARRA PLAY */
