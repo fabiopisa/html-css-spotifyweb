@@ -221,7 +221,7 @@ a{
 /* lista contenuti */
 /* lista recently */
 .list-recently{
- /*  padding: 10px; */
+  padding: 10px;
 }
 .list-recently h3{
   margin-left: 10px;
@@ -231,22 +231,35 @@ a{
 }
 .list-recently ul {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .list-recently ul li{
-  /* width: calc(100%/6); */
-  /* padding: 10px; */
+  width: calc(100%/6);
+  padding: 10px;
   display: inline-block;
 }
 .list-recently ul li img{
-  width: 150px;
-  height: 150px;
+  width: 100%;
 }
 .list-recently ul li h4{
   margin: 10px 0;
   font-size: 22px;
 }
 /* /lista recently */
+/* lista creato */
+.list-creato span{
+  margin-left: 10px;
+  line-height: 60px;
+}
+.list-creato h3{
+  margin:0 10px;
+}
+/* /lista creato */
+/* lista artisti */
+.list-artist img{
+  border-radius: 50%;
+}
+/* /lista artisti */
 /* /SEZIONE CONTENUTI */
 
 /* SEZIONE BARRA PLAY */
