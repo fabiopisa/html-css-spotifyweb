@@ -52,6 +52,13 @@ a{
 .display-none{
   display: none;
 }
+a:hover{
+  color: #FFFFFF;
+}
+i:hover{
+  color: #FFFFFF;
+  cursor: pointer;
+}
 /* SEZIONE NAV */
 .nav-col{
   background-color:#000000 ;
@@ -253,6 +260,11 @@ a{
   text-transform: uppercase;
   margin-right: 25px;
 }
+.fix-bar a:hover{
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-right: 35px;
+}
 /*/ barra fixata */
 /* lista contenuti */
 .list-contenents {
@@ -273,6 +285,9 @@ a{
 .list-contenents ul li a{
  text-transform: uppercase;
  color: #7B7D82;
+}
+.list-contenents ul li a:hover{
+  color: #FFFFFF;
 }
 .list-contenents ul li .green-line{
   width: 40px;
@@ -460,22 +475,18 @@ footer {
 .fp-font-play{
  font-size:30px;
 }
-
 .fp-font-btn-play{
  font-size:15px;
 }
-
 .player .min-bar{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .player .min-bar span{
   font-size: 10px;
 }
-
 .player .min-bar .line-time{
   width: 80%;
   background-color: #5A5A5A;
@@ -483,11 +494,30 @@ footer {
   height: 4px;
   margin: 0 15px;
 }
-
 .player .min-bar .line-time .time-avance{
   width: 25%;
-  border: 2px solid #C1C1C1;
+  height:4px;
   border-radius: 20px;
+  background-color: #C1C1C1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.player i:hover{
+  color: #808080;
+}
+.player .time-avance:hover .point-white{
+  display: block;
+}
+.player .time-avance:hover{
+  background-color: #ADFF2F;
+  cursor: pointer;
+}
+.point-white{
+  width: 15px;
+  height: 15px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
 }
 /*/ PLAYER */
 /* VOLUME */
@@ -507,8 +537,22 @@ footer {
 
 .volume .vol-line .vol-avance{
   width: 25%;
-  border: 2px solid #C1C1C1;
+  height: 4px;
   border-radius: 20px;
+  background-color:#C1C1C1 ;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.volume i:hover{
+  color: #808080;
+}
+.volume .vol-avance:hover .point-white{
+  display: block;
+}
+.volume .vol-avance:hover{
+  background-color: #ADFF2F;
+  cursor: pointer;
 }
 /* /VOLUME */
 /* MEDIAQUERY */
